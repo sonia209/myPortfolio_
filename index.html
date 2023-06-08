@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<link rel="stylesheet" href="css/portfolio.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+<a href="#" class="logo">portfolio</a>
+<div class = "menuToggle "></div>
+<ul class="nav">
+    <li class="active"><a href="#home">Home</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#portfolio">Portfolio</a></li>
+    <li><a href="#contact">Contact</a></li>
+</ul>
+    </header>
+    
+    <section id="home">
+    <div class="content">
+         
+        <h2><span>I'm</span><br><span>Sonia</span> Nagle</h2>
+        <p>THIS IS MY OFFICIAL WEBSITE
+         TO SHOWCASE ALL MY WORKS.
+        </p>
+
+        <a href="#" class="btn">Contact Me</a>
+    </div>
+    <img src="/img/20230606_160554.png" class="me">
+    </section>
+
+    <section id="services">
+        <div class="secText">
+            <h2>What Iam Great At</h2>
+            <p>I help companies to make beautiful Websites & have Work-experience in Web Development.</p>
+            </div>
+            <div class="content">
+            <div class="servicesBx">
+               <img src="img/design (2).png">
+               <h3>Website Designing</h3>
+            </div>
+            <div class="servicesBx">
+               <img src="img/develop.png">
+               <h3>Web Development</h3>
+            </div>
+            <div class="servicesBx">
+               <img src="img/android-3372580_1280.png">
+               <h3>Amimatioms</h3>
+          </div>
+            <div class="servicesBx">
+               <img src="img/movie-297239_1280.png">
+               <h3>Vedio-Editing</h3>
+               </div>
+         
+        </div>
+        <div class="center">
+            <a href="#"  class="btn">Hire Me</a>
+        </div>
+    </section>
+    <section id="portfolio">
+        <div class="secText">
+            <h2>About <span>Me</span></h2>
+            <P>Iam a an innoavtive Web developer,creating engaging and user freindly web experiences.</P>
+        <div class="about-img">
+                <img src="img/1655017465386.jpg" alt="">
+                <h3>I'm frontend developer</h3>
+                <a href="#" class="circle-spin"></a>
+            </div>
+            <div class="about-content"></div>
+            <p>Iam Sonia Nagle,Design and establish user-freindly websites including optimized check-out page & establish an interactive and dynamic  website.</p>
+            <div class="center">
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+        </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="secText">
+            <h2>Ways To Contact</h2>
+            <p>Thankyou! for visiting MY PORTFOLIO,<br>
+                E-mail me with any questions or queries.
+                I would be happy to answer yuor questions
+                and set up a meeting with you.
+                I can set you apart from the flock!</p>     
+            </div>
+         <br>
+        <div class="content">
+            <br>
+             <a href="#">     
+        <ion-icon name="mail-outline">
+        </ion-icon>  sonianagle0@gmail.com
+           
+            </a>
+    <!-- <br>
+            <a href="#">
+                <ion-icon name="call"></ion-icon>
+              +123 000 000 0000
+            </a>
+         <br> -->
+            <a href="#">
+                <ion-icon name="logo-instagram"></ion-icon>
+              Instagram
+            </a>
+<!--           
+            <br>
+            <a href="#"> 
+             <ion-icon name="logo-whatsapp"></ion-icon>
+             whatsapp
+            </a> -->
+
+            </div>
+           <div class="center">
+            <p class="copyrights">Copyright &#169; 2023<a href="#">Sonia Nagle</a>. All Right Reserved</p>
+           </div>
+    </section>  
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js">
+            let list = document.querySelectorAll('nav li');
+            function active(){
+                list.forEach((i) => 
+                i.classList.remove('active'));
+                this.class.add(('active'));
+            }
+            list.forEach((i)=>
+            i.addEventListener('click',active));
+
+            let menuToggle = dodocument.querySelecto('.menuToggle');
+            let header =document.querySelector('header');
+            menuToggle.onclick =Function()
+            {
+                header.classList.toggle('active');
+            }
+
+        </script> 
+    
+</body>
+</html>
